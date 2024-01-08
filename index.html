@@ -10,7 +10,7 @@
             width: 1000px;
             height: 800px;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: flex-start;
             flex-wrap: wrap;
             align-content: flex-start ;
@@ -26,6 +26,24 @@
             color: white;
             box-sizing: border-box;
         }
+
+        .item:nth-child(5) {
+            background-color: green;
+            order: 1;
+        }
+
+        .item:nth-child(10) {
+            order: 2;
+        }
+
+        .item:nth-child(11) {
+            order: 3;
+        }
+
+        .item:nth-child(12) {
+            order: 4;
+        }
+
 
     </style>
 </head>
