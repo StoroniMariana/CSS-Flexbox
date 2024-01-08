@@ -10,7 +10,9 @@
             width: 1000px;
             height: 800px;
             display: flex;
-            flex-direction: row;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center; 
         }
 
         .item {
@@ -21,6 +23,16 @@
             border-radius: 10px;
             font-size: 32px;
             color: white;
+        }
+
+        .item:nth-child(2) {
+            height: 350px;
+            font-size: 90px;
+        }
+
+        .item:nth-child(3) {
+            height: 250px;
+            font-size: 150px;
         }
     </style>
 </head>
